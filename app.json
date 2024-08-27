@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Amrikiah",
+    "slug": "fatayer",
+    "scheme": "amrikiah",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#1F1D1D",
+    "primaryColor": "#FE8C00",
+    "splash": {
+      "backgroundColor": "#1F1D1D"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.nerdswithoutwork.amrikiah",
+      "adaptiveIcon": {
+	      "foregroundImage": "./assets/adaptive-icon.png",
+	      "backgroundColor": "#FE8C00"
+      }
+    },
+    "plugins": [
+      [
+        "expo-router"
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to add a profile photo for restaurants"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f7358fdf-4748-490e-aaee-152fcaf33b02"
+      }
+    },
+    "owner": "munzerx"
+  }
+}
